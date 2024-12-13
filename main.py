@@ -14,10 +14,7 @@ if __name__ == "__main__":
 
         if cell is not None:
             knight = Knight(cell, grid)
-            while True:
-                if knight.is_end_of_way():
-                    break
-
+            while !knight.is_end_of_way():
                 knight.step()
                 os.system("cls")
                 grid.print()
